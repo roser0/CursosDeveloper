@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+}
+
+.solido{
+    border: solid red ;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.redondeado{
+    border: 5px solid blueviolet;
+    border-radius: 20px 0px 10px 0px;
+}
+
+
+/* 
+
+TIPOS DE BORDES
+.doble{
+    border: 10px double blueviolet;
+    border-width: 10px 5px;
+}
+
+.surco{
+    border: 10px groove;
+}
+
+.cresta{
+    border: 10px ridge;
+}
+
+.recuadro{
+    border: 10px inset;
+}
+
+.outset{
+    border: 10px outset;
+}
+ 
+.sin-borde{
+    border: none;
+}
+
+.oculto{
+    border: hidden;
+}
+
+.mixto{
+    border-style: dotted solid dashed double;
+}
+
+.punteado{
+    border-style: dotted;
+    border-width: 10px 5px 3px 2xp;
+    border-color: crimson hotpink gold lime;
+}
+
+.discontinuo{
+    border-style: dashed;
+    border-width: thick;
+    border-color: #447c9c;
+}
+
+*/

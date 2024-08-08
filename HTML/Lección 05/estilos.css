@@ -1,0 +1,53 @@
+ /* h1{
+    color: #1d3557;
+}
+
+
+ul{
+list-style-type: none;
+background-color: #457b9d;
+overflow: scroll;
+margin: 0;
+padding: 0;
+}
+
+
+li{
+   /*Para que los list item floten y se muestren hacia la derecha, de manera horizontal como un navbard
+   float: left;
+
+}
+
+li a{
+/* Para definir la lista como bloque
+    display: block;
+color: white;
+text-align: center;
+padding: 15px;
+/*En el caso de los links, para quitar la linea de abajo
+text-decoration: none;
+
+}
+
+/* :hover es para cambiar el aspecto a los links cuando se pone el cursor envima
+li a:hover{
+    background-color: #1d3557;
+} */
+
+ol{
+    list-style: none; 
+    counter-reset: contador;
+}
+ol li{
+    counter-increment: contador;
+}
+
+/*li::before es para personalizar lo que quiero que muestres después del list item*/
+ol li::before{
+    content: 'Curso ' counter(contador);
+}
+
+ol li::after{
+    content: '.' ;
+}
+
